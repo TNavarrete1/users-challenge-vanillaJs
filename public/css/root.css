@@ -1,0 +1,28 @@
+/* Strip elements of default values */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* CSS variables */
+:root {
+    /* layout */
+    --layout-max-width: 1200px;
+
+    /* Fonts */
+    --font-primary: 'Poppins', sans-serif;
+
+    /* Colors */
+    --color-black: #141414;
+    --color-white: #fff8f8;
+    --bg-black: #141414;
+    --bg-gray: rgb(218, 218, 218);
+    --bg-white: #fff8f8;
+    --bg-dark-blue: #343477;
+    --bg-blue: #6262ed;
+    --bg-red: #ed6262;
+}
